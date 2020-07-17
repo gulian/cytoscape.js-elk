@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["elkjs"], factory);
 	else if(typeof exports === 'object')
-		exports["cytoscapeElk"] = factory(require("elkjs"));
+		exports["cytoscapeElkGulian"] = factory(require("elkjs"));
 	else
-		root["cytoscapeElk"] = factory(root["ELK"]);
+		root["cytoscapeElkGulian"] = factory(root["ELK"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_4__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
