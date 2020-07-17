@@ -1,5 +1,5 @@
 {
-  "name": "cytoscape-elk",
+  "name": "cytoscape-elk-gulian",
   "version": "2.0.0",
   "description": "The ELK layout algorithm adapter for Cytoscape.js",
   "main": "dist/cytoscape-elk.js",
