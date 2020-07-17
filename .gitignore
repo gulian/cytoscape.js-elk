@@ -1,4 +1,6 @@
+dist
+index.html
 node_modules
 npm-debug.log
-index.html
 package-lock.json
+yarn.lock

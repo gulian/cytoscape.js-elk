@@ -1,13 +1,19 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "node": true,
-        "amd": true,
-        "es6": true
-    },
-    "extends": "eslint:recommended",
-    "rules": {
-      "semi": "error"
-    }
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "amd": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": "error",
+    "prefer-const": "error",
+    "no-var": "error"
+  }
 }
